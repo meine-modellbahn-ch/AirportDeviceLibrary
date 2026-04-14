@@ -1,6 +1,6 @@
-#include "MyDevice.h"
+#include "AirportDevice.h"
 
-MyDevice::AirportDevice(const char* ssid,const char* pass,
+AirportDevice::AirportDevice(const char* ssid,const char* pass,
                    const char* server,uint16_t port,
                    uint8_t id,bool debug)
 : _ssid(ssid),_pass(pass),_server(server),_port(port),
