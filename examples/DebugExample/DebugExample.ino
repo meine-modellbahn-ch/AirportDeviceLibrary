@@ -1,6 +1,6 @@
-#include <MyDevice.h>
+#include <AirportDevice.h>
 
-MyDevice device(
+AirportDevice device(
   "WIFI_NAME",
   "WIFI_PASS",
   "192.168.1.63",
